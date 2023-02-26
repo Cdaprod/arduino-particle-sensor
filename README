@@ -1,0 +1,10 @@
+This repo is for a personal project that I’d like to share. 
+
+To use a dust particle meter with an Arduino, you will need to follow these general steps:
+
+- Choose a compatible dust particle sensor: There are several types of dust particle sensors available that can be used with an Arduino. You can choose a sensor that suits your needs based on the accuracy and sensitivity required for your application.
+- Connect the sensor to the Arduino: Once you have selected a sensor, you will need to connect it to the Arduino board. Most dust particle sensors have pins that can be connected to the digital or analog input pins on the Arduino. Refer to the datasheet of the sensor to determine the pins that need to be connected.
+- Power the sensor: Dust particle sensors require a power supply to operate. Most sensors require a 5V power supply, which can be provided by connecting the VCC pin of the sensor to the 5V pin on the Arduino.
+- Write the code: You will need to write a program for the Arduino that reads the output of the dust particle sensor and displays the data on a display or sends it to a computer or other device for analysis. Refer to the datasheet of the sensor to determine the communication protocol and command set.
+- Test the system: Once you have written the code, upload it to the Arduino board and test the system by exposing the sensor to dust particles and observing the output.
+Here is a sample code that you can use as a starting point:
